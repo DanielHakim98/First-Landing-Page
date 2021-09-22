@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
 
 .info img {
-    width:200px;
+    max-width:200px;
+    width: 100%;
     height:auto;
     background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
     border: 5px solid #3882F6;
@@ -11,18 +12,19 @@
 }
 
 .info img:hover {
-    width:300px;
+    max-width:300px;
+    width: 100%;
     height:auto;
     background: url(http://goo.gl/vyAs27) no-repeat scroll 0 0;
     border: 5px solid #3882F6;
     border-radius: 1rem;
-    transition: 200ms;
-    
+    transition: 200ms;   
 }
 
 .first-section .fabrizio{
-    height: 19.5rem;
-    width: auto;
+    height: auto;
+    width: 100%;
+    max-width: 10rem;
 }
 
 body{
